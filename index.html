@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header><h1>Weather Dashboard</h1></header>
+ 
+      
+      
+        <div class="row">
+          
+          <div class="col-3">
+            <div class="card">
+              <h3 class="card-header">Find Out the Local Weather</h3>
+              <form id="search-city-form" class="card-body">
+                <label class="form-label" for="username">Search by city</label> <br>
+                <input name="entercity" id="entercity" placeholder="Enter City Name" type="text" autofocus="true" class="form-input" />
+                <button type="submit" class="btn">Search</button>
+              </form>
+               </div>
+               <div class="col-5" id="current-city-name"></div>
+        </div>
+       <div class="col-9">
+         <div class="row">
+          <div class="col-11" id="current-weather"></div>
+         </div>
+       <div class="row">
+        <div class="col-12" id="five-day-weather"></div>
+       </div>
+          
+       </div>
+        
+            
+           
+    
+         
+       
+      </div>
+       
+   <script src="./assets/js/script.js"></script>     
+</body>
+</html>
