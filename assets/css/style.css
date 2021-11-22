@@ -56,3 +56,6 @@ label {
     border: thick solid lavender;
 
 }
+.backgroundimg{
+    background-image: url("../assets/images /pexels-photo-125457.jpg");
+}
